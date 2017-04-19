@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="1.0" init="Config">
+    <ConfigItem Name="NotificationSenderByQueue::MappingAddress" Required="0" Valid="0">
+        <Description Translatable="1">Notification sender addresses per Queue.</Description>
+        <Group>NotificationSenderByQueue</Group>
+        <SubGroup>Core</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Junk">new@sender.tld</Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="NotificationSenderByQueue::MappingName" Required="0" Valid="0">
+        <Description Translatable="1">Notification sender names per Queue.</Description>
+        <Group>NotificationSenderByQueue</Group>
+        <SubGroup>Core</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Junk">New Sender Address</Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+</otrs_config>
